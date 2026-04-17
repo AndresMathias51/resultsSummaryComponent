@@ -1,0 +1,61 @@
+.resultSection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to bottom, var(--Light_slate_blue_background), var(--Light_royal_blue_background));
+    color: var(--White);
+    border-radius: 0 0 40px 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    height: 100%;
+}
+.titulo{
+    font-size: 1.2rem;
+    color: var(--Light_lavender);
+    margin-bottom: 20px;
+}
+.circuloPuntaje{
+    background: linear-gradient(to bottom, var(--Violet_blue_circle), var(--Persian_blue_circle));
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.puntaje{
+    font-size: 50px;
+    font-weight: 700;
+}
+.total{
+    font-size: 15px;
+    color: var(--Light_lavender);
+    opacity: 0.8;
+}
+.grado{
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+.descripcion{
+    width: 80%;
+    color: var(--Light_lavender);
+    font-size: 15px;
+    line-height: 1.4;
+    text-align: center;
+}
+@media screen and (min-width: 1440px){
+    .resultSection{
+        border-radius: 40px;
+        height: 100%;
+    }
+    .circuloPuntaje{
+        width: 200px;
+        height: 200px;
+    }
+    .puntaje{
+        font-size: 80px;
+    }
+}

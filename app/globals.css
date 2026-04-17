@@ -1,0 +1,37 @@
+@import "tailwindcss";
+
+
+:root {
+  /* ## Colors */
+/* ### Primary */
+--Light_red: hsl(0, 100%, 67%);
+--Light_red_fondo: hsla(0, 100%, 67%, 10%);
+--Orangey_yellow: hsl(39, 100%, 56%);
+--Orangey_yellow_fondo: hsla(39, 100%, 56%, 10%);
+--Green_teal: hsl(166, 100%, 37%);
+--Green_teal_fondo: hsla(166, 100%, 37%, 10%);
+--Cobalt_blue: hsl(234, 85%, 45%);
+--Cobalt_blue_fondo: hsla(234, 85%, 45%, 10%);
+/* ## Gradients */
+--Light_slate_blue_background: hsl(252, 100%, 67%);
+--Light_royal_blue_background: hsl(241, 81%, 54%);
+--Violet_blue_circle: hsla(256, 72%, 46%, 1);
+--Persian_blue_circle: hsla(241, 72%, 46%, 0);
+/* ### Neutral */
+--White: hsl(0, 0%, 100%);
+--Pale_blue: hsl(221, 100%, 96%);
+--Light_lavender: hsl(241, 100%, 89%);
+--Dark_gray_blue: hsl(224, 30%, 27%);
+}
+
+.main {
+  background: var(--Pale_blue);
+  height: 100vh;
+}
+@media screen and (min-width: 1440px){
+  .main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

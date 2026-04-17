@@ -1,0 +1,31 @@
+.contenedorSummary{
+    display: flex;
+    flex-direction: column;
+    padding: 28px;
+    gap: 20px;
+    height: 100%;
+}
+.textoSummary{
+    color: var(--Dark_gray_blue);
+    font-weight: 700;
+    font-size: 17px;
+}
+.boton{
+    background: var(--Dark_gray_blue);
+    color: var(--White);
+    font-weight: 500;
+    padding: 15px 20px;
+    border-radius: 30px;
+    font-size: 18px;
+    transition: background 0.25s ease;
+    outline: none;
+}
+.boton:hover{
+    background: linear-gradient(to bottom, var(--Light_slate_blue_background), var(--Light_royal_blue_background));
+    outline: none;
+}
+@media screen and (min-width: 1440px){
+    .textoSummary{
+        font-size: 24px;
+    }
+}

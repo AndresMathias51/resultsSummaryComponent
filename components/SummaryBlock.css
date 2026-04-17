@@ -1,0 +1,24 @@
+.contenedorCategoria{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 15px;
+    border-radius: 10px;
+    margin: auto;
+    width: 100%;
+    font-size: 16px;
+}
+.categoria{
+    display: flex;
+    gap: 8px;
+}
+.textoCategoria{
+    font-weight: 500;
+}
+.textoNota{
+    font-weight: bold;
+    color: var(--Dark_gray_blue);
+}
+.ponderacion{
+    color: gray;
+}
